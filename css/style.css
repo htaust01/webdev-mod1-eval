@@ -164,21 +164,27 @@ hr {
 }
 
 @media (min-width: 800px) {
+	section {
+		display: flex;
+		gap: 1rem;
+	}
+
 	.header_pub-info {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+		margin: 1rem;
 	}
 
 	.main-article {
 		width: 60%;
 		border-radius: 0.6rem;
-		margin: 0;
+		margin: 1rem;
 	}
 
 	.main-sidebar {
 		width: 40%;
 		border-radius: 0.6rem;
-		margin: 0;
+		margin: 1rem;
 	}
 }
